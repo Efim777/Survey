@@ -1,0 +1,23 @@
+.header {
+
+    // .header__body
+
+    &__body {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__fleg {
+        display: flex;
+        align-items: center;
+    }
+
+    &__date{
+        font-size: 10px;
+        line-height: 14px;
+        margin-right: 8px;
+
+    }
+}

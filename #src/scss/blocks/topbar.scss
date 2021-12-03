@@ -1,0 +1,15 @@
+.topbar {
+    background: $blue;
+    height: 50px;
+
+    &__wrapper {
+        padding: 3px 0 4px 0;
+    }
+
+    &__text {
+        color: $white;
+        text-align: center;
+        font-size: 36px;
+        line-height: 43px;
+    }
+}
