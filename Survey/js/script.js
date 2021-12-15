@@ -177,7 +177,7 @@ jQuery(document).ready(function () {
       </form>
    </div>
    `
-
+   
    const step_5 = `
    <div class="survey__step-wrapper step step_5">
       <h1 class="survey-text">How much do you spend on online shopping monthly?</h1>
@@ -300,11 +300,11 @@ jQuery(document).ready(function () {
 
    const step_8 = `
    <div class="survey__step-wrapper step step_8">
-      <h1 class="survey-text">Congratulations, the form has been sent for processing.</h1>
+      <h1 class="survey-textend">Congratulations, the form has been sent for processing.</h1>
    </div>
    `
    //-------------------END------------------
-
+   // body.html(step_8)
    // --------------- 3 STEPS --------------
    const step_3_1 = `
    <div class="survey__step-wrapper step step_3">
