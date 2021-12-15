@@ -232,7 +232,7 @@ img {
 }
 
 .step1 {
-  background: url("../img/back-bag.jpg") no-repeat center/cover;
+  background: url("./img/back-bag.jpg") no-repeat center/cover;
   height: 740px;
   margin-top: 118px;
 }
@@ -338,7 +338,7 @@ img {
 }
 
 .step2 {
-  background: url("../img/back-bag.jpg") no-repeat center/cover;
+  background: url("./img/back-bag.jpg") no-repeat center/cover;
   height: 740px;
   margin-top: 118px;
 }
@@ -448,7 +448,7 @@ img {
 }
 
 .step3 {
-  background: url("../img/Electronics.jpg") no-repeat center/cover;
+  background: url("./img/Electronics.jpg") no-repeat center/cover;
   height: 740px;
   margin-top: 118px;
 }
@@ -558,7 +558,7 @@ img {
 }
 
 .step4 {
-  background: url("../img/Electronics.jpg") no-repeat center/cover;
+  background: url("./img/Electronics.jpg") no-repeat center/cover;
   height: 740px;
   margin-top: 118px;
 }
@@ -668,7 +668,7 @@ img {
 }
 
 .step5 {
-  background: url("../img/Electronics.jpg") no-repeat center/cover;
+  background: url("./img/Electronics.jpg") no-repeat center/cover;
   height: 740px;
   margin-top: 118px;
 }
@@ -778,7 +778,7 @@ img {
 }
 
 .step6 {
-  background: url("../img/Electronics.jpg") no-repeat center/cover;
+  background: url("./img/Electronics.jpg") no-repeat center/cover;
   height: 740px;
   margin-top: 118px;
 }
@@ -888,7 +888,7 @@ img {
 }
 
 .step7 {
-  background: url("../img/Electronics.jpg") no-repeat center/cover;
+  background: url("./img/Electronics.jpg") no-repeat center/cover;
   height: 740px;
   margin-top: 118px;
 }
@@ -998,7 +998,7 @@ img {
 }
 
 .step8 {
-  background: url("../img/Electronics.jpg") no-repeat center/cover;
+  background: url("./img/Electronics.jpg") no-repeat center/cover;
   height: 740px;
   margin-top: 118px;
 }
@@ -1365,18 +1365,18 @@ a:hover::after {
   }
 }
 
-.webp .step1 { background: url(../img/back-bag.webp) no-repeat center/cover; }
+.webp .step1 { background: url(./img/back-bag.webp) no-repeat center/cover; }
 
-.webp .step2 { background: url(../img/back-bag.webp) no-repeat center/cover; }
+.webp .step2 { background: url(./img/back-bag.webp) no-repeat center/cover; }
 
-.webp .step3 { background: url(../img/Electronics.webp) no-repeat center/cover; }
+.webp .step3 { background: url(./img/Electronics.webp) no-repeat center/cover; }
 
-.webp .step4 { background: url(../img/Electronics.webp) no-repeat center/cover; }
+.webp .step4 { background: url(./img/Electronics.webp) no-repeat center/cover; }
 
-.webp .step5 { background: url(../img/Electronics.webp) no-repeat center/cover; }
+.webp .step5 { background: url(./img/Electronics.webp) no-repeat center/cover; }
 
-.webp .step6 { background: url(../img/Electronics.webp) no-repeat center/cover; }
+.webp .step6 { background: url(./img/Electronics.webp) no-repeat center/cover; }
 
-.webp .step7 { background: url(../img/Electronics.webp) no-repeat center/cover; }
+.webp .step7 { background: url(./img/Electronics.webp) no-repeat center/cover; }
 
-.webp .step8 { background: url(../img/Electronics.webp) no-repeat center/cover; }
+.webp .step8 { background: url(./img/Electronics.webp) no-repeat center/cover; }
