@@ -1,22 +1,32 @@
 .step1{
     background: url("../../img/back-bag.jpg") no-repeat center/cover;
-
     height: 740px;
     margin-top: 118px;
-    
+    @media screen and (max-width: 1000px){
+        margin-top: 50px;
+    }
 }
 .survey-form{
     position: absolute;
     background: $white;
     margin-left: auto;
     right: 103px;
-    bottom: -240px;
-    // top: 100px;
-    height: 510px; 
+    top: -148px;
+    // height: 550px; 
+    height: fit-content;
     max-width: 528px;
     width: 100%;
     padding: 30px 20px 38px 20px;
     
+    
+    @media screen and (max-width: 1000px){
+        right: 50%;
+        top: 60%;
+        transform: translate(50%, -50%);
+    }
+    @media screen and (max-width: 355px){
+        top: 63%;
+    }
 
     &__label{
         display: flex;
@@ -87,6 +97,13 @@
     font-size: 36px;
     line-height: 43px;
     margin-top: 35px;
+
+    @media screen and (max-width: 1000px){
+        margin-top: -1px;
+        text-align: center;
+    }
+    
 }
+
 
 

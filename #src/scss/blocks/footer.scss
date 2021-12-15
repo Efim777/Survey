@@ -2,17 +2,31 @@
     background: $blue;
     height: 344px;
     margin-top: 170px;
+    @media screen and (max-width: 1060px){
+        margin-top: 130px;
+  
+    }
+    @media screen and (max-width: 768px){
+        margin-top: 100px;
+
+    }
 
     &__img{
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 40px;
+        @media screen and (max-width: 383px){
+            margin-top: 25px;
+        }
     }
 
     &__pay{
         display: flex;
         gap: 16px;
+        @media screen and (max-width: 576px){
+            gap: 10px;
+        }
     }
 
     &__text{
@@ -20,6 +34,24 @@
         font-size: 16px;
         line-height: 22px;
         margin-top: 48px;
+        @media screen and (max-width: 800px){
+            font-size: 13px;
+
+        }
+        @media screen and (max-width: 655px){
+            font-size: 11px;
+
+        }
+        @media screen and (max-width: 576px){
+            font-size: 9px;
+            margin-top: 40px;
+        }
+        @media screen and (max-width: 383px){
+            margin-top: 30px;
+        }
+        @media screen and (max-width: 323px){
+            margin-top: 20px;
+        }
     }
 
     &__text2{
@@ -30,6 +62,34 @@
         font-weight: 700;
         display: flex;
         justify-content: center;
+        @media screen and (max-width: 992px){
+            margin-top: 45px;
+        }
+        @media screen and (max-width: 907px){
+            margin-top: 30px;
+        }
+        @media screen and (max-width: 633px){
+            font-size: 13px;
+            margin-top: 25px;
+        }
+        @media screen and (max-width: 323px){
+            margin-top: 15px;
+        }
+    }
+
+    &__logo{
+        @media screen and (max-width: 576px){
+            max-width: 130px;
+        }
+    }
+
+    &__pay-img{
+        @media screen and (max-width: 576px){
+            max-width: 40px;
+        }
+        @media screen and (max-width: 364px){
+            max-width: 30px;
+        }
     }
 }
 
@@ -47,4 +107,8 @@ a:hover{
         bottom: -5px;
         left: 0;
     }  
+}
+
+img{
+   
 }

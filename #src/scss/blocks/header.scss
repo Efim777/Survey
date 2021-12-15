@@ -1,7 +1,5 @@
 .header {
 
-    // .header__body
-
     &__body {
         margin-top: 20px;
         display: flex;
@@ -19,5 +17,15 @@
         line-height: 14px;
         margin-right: 8px;
 
+    }
+    &__logo{
+        @media screen and (max-width: 576px){
+            max-width: 130px;
+        }
+    }
+    &__fleg-img{
+        @media screen and (max-width: 576px){
+            max-width: 40px;
+        }
     }
 }

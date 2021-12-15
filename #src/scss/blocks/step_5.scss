@@ -1,4 +1,4 @@
-.step3{
+.step5{
     background: url("../../img/Electronics.jpg") no-repeat center/cover;
     height: 740px;
     margin-top: 118px;
@@ -6,7 +6,7 @@
         margin-top: 50px;
     }
 }
-.survey-form3{
+.survey-form5{
     position: absolute;
     background: $white;
     margin-left: auto;
@@ -21,9 +21,10 @@
     
     @media screen and (max-width: 1000px){
         right: 50%;
-        top: 63%;
+        top: 66%;
         transform: translate(50%, -50%);
     }
+
     &__textarea{
         border: 1px solid #222;
         max-width: 488px;
@@ -41,7 +42,7 @@
 
     }
 
-    &__button3{
+    &__button5{
         cursor: pointer;
         max-width: 488px;
         width: 100%;
@@ -101,8 +102,7 @@
 }
 .survey-text{
     @media screen and (max-width: 1000px){
-        margin-top: -60px;
+        margin-top: -70px;
         text-align: center;
     }
 }
-
